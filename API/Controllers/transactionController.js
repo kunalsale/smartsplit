@@ -33,6 +33,7 @@ module.exports.addBill = function(req,res)
 	 commonArray = _.union(friendsArray,membersArray);
 	 console.log(commonArray);
 
+
 	if(!group)
 	{
 		if(friendsArray.length > 2)
